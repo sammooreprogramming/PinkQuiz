@@ -1,0 +1,34 @@
+:root {
+    --primary-color: rgb(78, 1, 1);
+    --secondary-color: rgb(244, 223, 246);
+    --tertiary-color: rgb(17, 48, 47);
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: var(--tertiary-color);
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+}
+
+/* Begin Header and Navigation styling /*
+
+
+
+/* HERO STYLING START*/
+.hero {
+    background-image: url("crow-airborne-hero.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
